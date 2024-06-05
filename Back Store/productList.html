@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List | Mirchi Grocery</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="//fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/Back Store/productList.css">
+</head>
+
+
+<body>
+    <header>
+        <a href="/index.html">
+            <img src="/imgs/Mirchi_Logo_oval_B.png" alt="Mirchi">
+        </a>
+
+        <nav id="nav-bar">
+            <a href="/index.html" class="nav-item">Home</a>
+            <a href="" class="nav-item">Events & Promotions</a>
+            <a href="/Login/login.html" class="nav-item">MyAccount</a>
+            <a href="/ShoppingCart.html" class="nav-item">Shopping Cart</a>
+        </nav>
+    </header>
+
+    <section id="aisle-bar">
+        <a href="/Back Store/productList.html">Product List</a>
+        <a href="/Back Store/userlist.html">User List</a>
+        <a href="/Back Store/orderList.html">Order List</a>
+    </section>
+
+    <h1 id="title-product-list">Product List</h1>
+
+    <section id="add-product" class="container">
+        <div class="row">
+            <div class="col-sm">
+                <a href="editproduct.html" id="new-product">Add product</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="product-list" class="container">
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs/apples.jpg" alt="Apples">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Fruits and Vegetables</p>
+                <p>Name: Apples</p>
+                <p>SKU: 420533</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 75</p>
+                <p>Price: $3.00 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs/banana.jpg" alt="Bananas">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Fruits and Vegetables</p>
+                <p>Name: Bananas</p>
+                <p>SKU: 40523</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 40</p>
+                <p>Price: $2.00 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs/Carrots.jpg" alt="Carrots">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Fruits and Vegetables</p>
+                <p>Name: Carrots</p>
+                <p>SKU: 42033</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 109</p>
+                <p>Price: $1.00 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs/alejandra-cifre-gonzalez-Z9yALdymUUI-unsplash 2.jpg" alt="Bagels">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: In-store Bakery</p>
+                <p>Name: Poppy and Sesame Seed Bagels</p>
+                <p>SKU: 90815</p>
+                <p>Units per quantity: Dozen</p>
+                <p>Quantity: 68</p>
+                <p>Price: $10.75 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+
+        </div>
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs/syed-f-hashemi-bGAPRnJITpQ-unsplash.jpg" alt="Baklava">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: In-store Bakery</p>
+                <p>Name: Honey Pistachio Baklava</p>
+                <p>SKU: 34345</p>
+                <p>Units per quantity: Two</p>
+                <p>Quantity: 46</p>
+                <p>Price: $3.95 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs/nick-fewings-IOu9B-79Gik-unsplash.jpg" alt="Croissant">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: In-store Bakery</p>
+                <p>Name: Butter Croissant</p>
+                <p>SKU: 89345</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 890</p>
+                <p>Price: $3.95 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs/sergio-arze-wJLGRhZsn5w-unsplash.jpg" alt="Miche">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: In-store Bakery</p>
+                <p>Name: Miche</p>
+                <p>SKU: 91325</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 45</p>
+                <p>Price: $6.75 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs/food-3337653_1280.jpg" alt="Naan">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: In-store Bakery</p>
+                <p>Name: Garlic Butter Naan</p>
+                <p>SKU: 51345</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 5234</p>
+                <p>Price: $1.95 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\2964057132_5deec050c4_b 2.jpg" alt="Namoura">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: In-store Bakery</p>
+                <p>Name: Almond Honey Namoura</p>
+                <p>SKU: 96825</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $2.75 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\yogurt.jpg" alt="Yogurt">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Dairy Products</p>
+                <p>Name: Astro Balkan Yogurt</p>
+                <p>SKU: 1274</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $2.99 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\lactantia.jpg" alt="Lactantia Milk">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Dairy Products</p>
+                <p>Name: Lactantia Milk</p>
+                <p>SKU: 1275</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $2.99 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\cheddar.jpg" alt="Cheddar">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Dairy Products</p>
+                <p>Name: Armstrong Marble Cheddar</p>
+                <p>SKU: 1277</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $5.99 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\quebon.jpg" alt="Quebon Milk">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Dairy Products</p>
+                <p>Name: 2% Quebon Milk</p>
+                <p>SKU: 1278</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $7.59 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\yogurt.jpg" alt="Yogurt">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Dairy Products</p>
+                <p>Name: Astro Balkan Yogurt</p>
+                <p>SKU: 1274</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $2.99 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\Calamari.jpg" alt="Calamari">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Fish & Seafood</p>
+                <p>Name: Fried Calamari</p>
+                <p>SKU: CC_600669</p>
+                <p>Units per quantity: 26</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $7.95 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\fried Shrimp.jpg" alt="Shrimp">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Fish & Seafood</p>
+                <p>Name: Fried Shrimp</p>
+                <p>SKU: FSh_600669</p>
+                <p>Units per quantity: 56</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $14.95/3</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\images.jpg" alt="Fish Sticks">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Fish & Seafood</p>
+                <p>Name: Fish Sticks</p>
+                <p>SKU: FS_600669</p>
+                <p>Units per quantity: 22</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $11.99/2 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\sushi.jpg" alt="Sushi">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Fish & Seafood</p>
+                <p>Name: Sushi</p>
+                <p>SKU: S_600669</p>
+                <p>Units per quantity: 12</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $14.95/4 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\BUTTER-CHICKEN.jpg" alt="Masala">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Herbs & Spices</p>
+                <p>Name: Butter Chicken Masala</p>
+                <p>SKU: 12345</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $3.79 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\HALDI.jpg" alt="Turmeric">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Herbs & Spices</p>
+                <p>Name: Turmeric Powder</p>
+                <p>SKU: 12345</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $2.79 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\LALMIRCH.jpg" alt="Red Chili">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Herbs & Spices</p>
+                <p>Name: Red Chili Powder</p>
+                <p>SKU: 12345</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $4.99 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\METHI.jpg" alt="Methi">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Herbs & Spices</p>
+                <p>Name: Peacock Kasoori Methi</p>
+                <p>SKU: 12345</p>
+                <p>Units per quantity: One</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $4.99 ea.</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\chicken.jpg" alt="Chicken">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Meat & Poultry</p>
+                <p>Name: Chicken Breast</p>
+                <p>SKU: 12347</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $7.99/454g</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\tikka.jpg" alt="Marinated Chicken">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Meat & Poultry</p>
+                <p>Name: Marinated Chicken Tikka</p>
+                <p>SKU: 12346</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $10.99/454g</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\goan.jpg" alt="Goan Sausage">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Meat & Poultry</p>
+                <p>Name: Goan Sausage</p>
+                <p>SKU: 12347</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $7.79/454g</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+        <div id="individual-border" class="row">
+            <div id="product-image" class="col-sm-3">
+                <img src="/imgs\beef.jpg" alt="Steak">
+            </div>
+            <div id="customize-product" class="col-sm-9">
+                <p>Aisle: Meat & Poultry</p>
+                <p>Name: Ribeye Steak</p>
+                <p>SKU: 12348</p>
+                <p>Quantity: 4345</p>
+                <p>Price: $16.99/454g</p>
+                <button id="edit" onclick="">Edit</button>
+                <button id="delete" onclick="">Delete</button>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="">Events & Promotions</a></li>
+            <li><a href="">Jobs in Stores</a>
+            <li><a href="/Back Store/userlist.html">Carreers at Head Office</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Store Locations</a></li>
+            <li><a href="">About Us</a>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">How can we do better?</a></li>
+            <li><a href="">Terms and Conditions</a></li>
+        </ul>
+
+        <p class="copyright">Copyright 2021 MirchiGrocery</p>
+    </footer>
+
+</body>
+
+</html>

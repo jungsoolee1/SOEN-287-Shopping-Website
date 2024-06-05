@@ -1,0 +1,354 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Handlee', cursive;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 244, 212);
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+
+header img {
+    max-width: 130px;
+}
+
+#nav-bar {
+    width: 80%;
+    text-align: right;
+}
+
+.nav-item {
+    font-family: 'Handlee', cursive;
+    padding: 0 5% 0 5%;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#nav-bar>a:hover {
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+    opacity: 100%;
+}
+
+#aisle-bar {
+    font-family: 'Handlee', cursive;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(159, 18, 18);
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#aisle-bar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    opacity: 60%;
+    font-size: 17px;
+}
+
+#aisle-bar a:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 100%;
+}
+
+#splash {
+    font-family: 'Handlee', cursive;
+    width: 100%;
+    height: 300px;
+    padding: 5% 15% 5% 15%;
+    background: url("imgs/hue12-photography-8rTwokBwz1w-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    text-align: center;
+    border-bottom: rgb(165, 22, 22);
+    border-bottom-style: solid;
+    white-space: pre-wrap;
+}
+
+#inner-splash {
+    border-radius: 5px;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 70px;
+}
+
+#product .card {
+    margin: 30px 0 30px 0;
+}
+
+#product .badge-onsale {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    background: #f20000;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    font-size: 14px;
+
+}
+
+#product .badge-new {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    background: #0030f2;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    font-size: 14px;
+
+}
+
+#product .product-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 75%;
+}
+
+#product .product-tag {
+    background: #f2a500;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color: #000;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+#product .product-title h5 {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#product .product-title h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+#product .product-price p {
+    font-size: 20px;
+    margin: auto;
+    color: #000000;
+    text-align: center;
+}
+
+#product .product-price p.old-price {
+    font-size: 15px;
+    margin: auto;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+#product .product-price p.new-price {
+    font-size: 20px;
+    margin: auto;
+    color: #f20000;
+    text-align: center;
+}
+
+#product .add-to-cart {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    font-family: 'Handlee', cursive;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(99, 114, 81);
+    /* background-color: rgb(187, 187, 187);  lighter gray option */
+    position: relative;
+    bottom: 0px;
+    height: 150px;
+    width: 100%;
+}
+
+footer ul {
+    padding-top: 30px;
+    text-decoration: none;
+    opacity: 60%;
+    list-style: none;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+
+footer p {
+    display: block;
+}
+
+
+footer a:hover {
+    text-decoration: none;
+    opacity: 100%;
+    color: rgb(155, 155, 155);
+}
+
+/* responsive classes */
+
+@media (max-width: 788px) {
+
+    header img {
+        max-width: 130px;
+    }
+
+    #nav-bar {
+        width: 80%;
+        text-align: right;
+    }
+
+    .nav-item {
+        font-size: 14px;
+    }
+
+    #aisle-bar a {
+        font-size: 15px;
+    }
+
+    #splash p {
+        width: 600px;
+        height: 115px;
+        font-size: 30px;
+    }
+
+    #splash p a {
+        font-size: 20px;
+    }
+
+
+    .selectionbox a {
+        font-size: 18px;
+    }
+
+    .selectionbox a:hover {
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        /* Black background with 0.5 opacity */
+        font-size: 30px;
+
+    }
+
+    footer ul li a {
+        font-size: 12.5px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    #aisle-grid {
+        font-family: 'Handlee', cursive;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .aisle {
+        max-width: 300px;
+        max-height: 300px;
+        /*background-color:rgb(165, 22, 22);     ---Should i put the red background behind the photos???*/
+        margin: 30px 30px 30px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .selectionbox a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    .selectionbox a:hover {
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        /* Black background with 0.5 opacity */
+        font-size: 30px;
+
+    }
+
+    .selectionbox {
+        position: relative;
+        max-width: 300;
+        max-height: 200px;
+        margin: 0 auto;
+
+    }
+
+    .selectionbox a {
+        position: absolute;
+        /* Position the background text */
+        bottom: 5%;
+        /* At the bottom. Use top:0 to append it to the top */
+        left: 10%;
+        background: none;
+        /* Fallback color */
+
+        color: white;
+        max-width: 300px;
+        max-height: 200px;
+        width: 80%;
+        /* Full width */
+        padding: 10px;
+        /* Some padding */
+    }
+
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}

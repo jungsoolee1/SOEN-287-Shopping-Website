@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirchi Grocery</title>
+
+
+
+   
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="//fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Back Store/userlist.css">
+
+
+
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+            <img src="/imgs/Mirchi_Logo_oval_B.png" alt="Mirchi">
+        </a>
+
+        <nav id="nav-bar">
+            <a href="/index.html" class="nav-item">Home</a>
+            <a href="" class="nav-item">Events & Promotions</a>
+            <a href="/Login/login.html" class="nav-item">MyAccount</a>
+            <a href="/ShoppingCart.html" class="nav-item">Shopping Cart</a>
+        </nav>
+    </header>
+
+
+    <section id="aisle-bar">
+        <a href="/Back Store/productList.html">Product List</a>
+        <a href="/Back Store/userlist.html">User List</a>
+        <a href="/Back Store/orderList.html">Order List</a>
+    </section>
+
+    <!--user list begin-->
+
+
+
+    <section id="user-list">
+        <h1>User List</h1>
+
+        <div id="user-count">There are currently <b>5</b> entries</div>
+
+
+        <table id="user-table" class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Phone Number</th>
+                    <th scope="col">email</th>
+                    <th scope="col">password</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Charlie</td>
+                    <td>Kelly</td>
+                    <td>570-555-5555</td>
+                    <td>ck@gmail.com</td>
+                    <td>12345</td>
+                    <td>123 Sherbrooke Rd, Montreal, QC W3D 2E1</td>
+                    <td><a  href="/Back Store/EditUserProfile.html"><button>edit user</button></a></td>
+                    <td><button onclick="alert('Are you sure you want to delete this user?')">Delete User</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jack</td>
+                    <td>Kelly</td>
+                    <td>514-555-1234</td>
+                    <td>jk123@gmail.com</td>
+                    <td>54321</td>
+                    <td>222 Milton Ave, Montreal, QC H2Y 2W3</td>
+                    <td><a  href="/Back Store/EditUserProfile.html"><button>edit user</button></a></td>
+                    <td><button onclick="alert('Are you sure you want to delete this user?')">Delete User</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Dennis</td>
+                    <td>Reynolds</td>
+                    <td>514-555-4355</td>
+                    <td>dr434@gmail.com</td>
+                    <td>12345</td>
+                    <td>323 Sunnyside Rd, Montreal, QC A2K 2Y1</td>
+                    <td><a  href="/Back Store/EditUserProfile.html"><button>edit user</button></a></td>
+                    <td><button onclick="alert('Are you sure you want to delete this user?')">Delete User</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Ryan</td>
+                    <td>Mcpoyle</td>
+                    <td>514-555-2223</td>
+                    <td>ryan_m22@gmail.com</td>
+                    <td>password</td>
+                    <td>4811 Bonavista Ave, Montreal, QC H1Z 3Y3</td>
+                    <td><a  href="/Back Store/EditUserProfile.html"><button>edit user</button></a></td>
+                    <td><button onclick="alert('Are you sure you want to delete this user?')">Delete User</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Deandra</td>
+                    <td>Reynolds</td>
+                    <td>514-555-6767</td>
+                    <td>deedee666@gmail.com</td>
+                    <td>12345</td>
+                    <td>456 circle Rd, Montreal, QC H5K 2Z4</td>
+                    <td><a  href="/Back Store/EditUserProfile.html"><button>edit user</button></a></td>
+                    <td><button onclick="alert('Are you sure you want to delete this user?')">Delete User</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+    <footer>
+        <a href="">Employee login</a>
+        <a href="/Back Store/userlist.html">Careers</a>
+        <a href="">About Us</a>
+        <a href="">Site Map</a>
+        <a href="">Flyer</a>
+        <a href="">Contact</a>
+    </footer>
+
+</body>
+
+</html>

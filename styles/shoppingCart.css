@@ -1,0 +1,88 @@
+#shippingAndbilling {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: thin;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border-color:#bdbdbd;
+}
+
+#shippingAndbilling h4 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#shippingAndbilling label {
+    margin: 5px 0 5px 0;
+}
+
+#receipt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#border-receipt {
+    margin-top: 20px;
+    padding: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: #bdbdbd;
+}
+
+#border-receipt .receipt-elements {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.receipt-elements p {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.row .name-product-price {
+    width: 50%;
+}
+
+.row .price-charge {
+    width: 50%;
+    text-align: right;
+}
+
+#border-receipt .seperating-bar {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.row .seperating-bar p {
+    width: 100%;
+    font-size: 5px;
+    text-align: right;
+    margin: 0 0 0 0;
+}
+
+.order-total p {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+#cart-items{
+    padding: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: #bdbdbd;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,137 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 244, 212);
+    align-items: center;
+    padding: 0 0 0 2%;
+}
+
+header img {
+    max-width: 130px;
+}
+
+#nav-bar {
+    width: 80%;
+    text-align: right;
+}
+
+.nav-item {
+    font-family: 'Handlee', cursive;
+    padding: 0 5% 0 5%;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#nav-bar>a:hover {
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+    opacity: 100%;
+}
+
+#aisle-bar {
+    font-family: 'Handlee', cursive;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(159, 18, 18);
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#aisle-bar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    opacity: 60%;
+    font-size: 17px;
+}
+
+#aisle-bar a:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 100%;
+}
+body{
+    margin: 0;
+    font-size: .9rem;
+    font-weight: bold;
+    line-height: 1.6;
+    color: #081725;
+    text-align: left;
+    background-color: rgb(119, 33, 22);
+}
+
+
+.navbar-Mirchi
+{
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    background-color:rgb(105, 98, 98);
+}
+
+.navbar-brand , .nav-link, .my-form, .login-form
+{
+    font-family: Raleway, sans-serif;
+}
+
+
+#login {
+    height: 100px;
+}
+/*login stuff here*/
+
+
+footer {
+    font-family: 'Handlee', cursive;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(99, 114, 81);
+    /* background-color: rgb(187, 187, 187);  lighter gray option */
+    position: relative;
+    bottom: 0px;
+    height: 150px;
+    width: 100%;
+}
+
+footer ul {
+    padding-top: 30px;
+    text-decoration: none;
+    opacity: 60%;
+    list-style: none;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+
+footer p {
+    display: block;
+}
+
+
+footer a:hover {
+    text-decoration: none;
+    opacity: 100%;
+    color: rgb(155, 155, 155);
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirchi Grocery</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/styles/homepage.css">
+    <link rel="stylesheet" href="/styles/shoppingCart.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="//fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="/index.html"><img src="/imgs/Mirchi_Logo_oval_B.png" alt="Mirchi"></a>
+
+
+        <nav id="nav-bar">
+            <a href="/index.html" class="nav-item">Home</a>
+            <a href="" class="nav-item">Events & Promotions</a>
+            <a href="/Login/login.html" class="nav-item">MyAccount</a>
+            <a href="/ShoppingCart.html" class="nav-item">Shopping Cart</a>
+        </nav>
+    </header>
+
+
+    <section id="aisle-bar">
+        <a href="/Fruits & Vegetables/fruitAndVegetables.html">Fruits & Vegetables</a>
+        <a href="/Dairy Products/dairy.html">Dairy Products</a>
+        <a href="/Meat & Poultry/meatPoultry.html">Meat & Poultry</a>
+        <a href="/Fish & Seafood/fishSeafood.html">Fish & Seafood</a>
+        <a href="/Herbes & Spices/Spices.html">Herbs & Spices</a>
+        <a href="/Bakery/bakery.html">In-store Bakery</a>
+    </section>
+
+    <section id="aisle-bar" class="resp">
+        <img id="logo-resp" src="/imgs/logo-resp.png" alt="Mirchi">
+
+        <div id="hamburger-icon">
+            <svg viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="20"></rect>
+                <rect y="30" width="100" height="20"></rect>
+                <rect y="60" width="100" height="20"></rect>
+            </svg>
+        </div>
+
+
+        <div id="dropdown-nav">
+            <a href="/">Home</a>
+            <a href="/Fruits & Vegetables/fruitAndVegetables.html">Fruits & Vegetables</a>
+            <a href="/Dairy Products/dairy.html">Dairy Products</a>
+            <a href="/Meat & Poultry/meatPoultry.html">Meat & Poultry</a>
+            <a href="/Fish & Seafood/fishSeafood.html">Fish & Seafood</a>
+            <a href="/Herbes & Spices/Spices.html">Herbs & Spices</a>
+            <a href="/Bakery/bakery.html">In-store Bakery</a>
+            <a href="/Login/login.html">My Account</a>
+            <a href="/ShoppingCart.html">Shopping Cart</a>
+        </div>
+
+    </section>
+
+    <div class="container">
+        <a class="back-button" type="button" href="/index.html">Back to Shopping</a>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row" id="shippingAndbilling">
+                    <div class="col-md-4">
+                        <form action="">
+                            <h4>Shipping Address</h4>
+                            <label for="name">Surname: </label>
+                            <br>
+                            <input type="text" name="shippingAddress" id="surname" placeholder="John">
+                            <br>
+                            <label for="name">Name: </label>
+                            <br>
+                            <input type="text" name="shippingAddress" id="name" placeholder="Washington">
+                            <br>
+                            <label for="address">Address: </label>
+                            <br>
+                            <input type="text" name="address" id="address" placeholder="1455 Boulevard de Maisonneuve" size="28">
+                            <br>
+                            <label for="country">Country: </label>
+                            <br>
+                            <input type="text" name="country" id="country" placeholder="Argentina">
+                            <br>
+                            <label for="phone">Phone: </label>
+                            <br>
+                            <input type="text" name="phone" id="phone" placeholder="514-673-5746">
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <form action="">
+                            <h4>Billing Address</h4>
+                            <label for="name">Surname: </label>
+                            <br>
+                            <input type="text" name="shippingAddress" id="surname" placeholder="John">
+                            <br>
+                            <label for="name">Name: </label>
+                            <br>
+                            <input type="text" name="shippingAddress" id="name" placeholder="Washington">
+                            <br>
+                            <label for="address">Address: </label>
+                            <br>
+                            <input type="text" name="address" id="address" placeholder="1455 Boulevard de Maisonneuve" size="28">
+                            <br>
+                            <label for="country">Country: </label>
+                            <br>
+                            <input type="text" name="country" id="country" placeholder="Argentina">
+                            <br>
+                            <label for="phone">Phone: </label>
+                            <br>
+                            <input type="text" name="phone" id="phone" placeholder="514-673-5746">
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <form action="">
+                            <h4>Credit Card Information</h4>
+                            <label for="name">Name: </label>
+                            <br>
+                            <input type="text" name="cardname" id="cname">
+                            <br>
+                            <label for="address">Card Number: </label>
+                            <br>
+                            <input type="text" name="cardnumber" id="ccnum">
+                            <br>
+                            <label for="country">CVV: </label>
+                            <br>
+                            <input type="text" name="cvv" id="cvv">
+                            <br>
+                            <label for="expiry">Expiry: </label>
+                            <br>
+                            <input type="text" name="expiry" id="exp" placeholder="mm/yy">
+                        </form>
+                    </div>
+                </div>
+
+                <div class= "row" id="cart-items">
+                    <table>
+                        <thead>
+                            <tr>
+                            <th></th>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Delete</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><img src="/imgs/BUTTER-CHICKEN.jpg" alt="" width=50%></td>
+                            <td>Butter Chicken Masala</td>
+                            <td><button class="atc_button" type="button" id="minus_atc_button">-</button>
+                                <span id="quantity_of_item"></span>
+                                <button class="atc_button" type="button" id="plus_atc_button">+</button>
+                            </td>
+                            <td>$ <span id="item_price"></span></td>
+                            <td><button type="submit" class="btn btn-outline-secondary">
+                                X
+                            </button></td>
+                          </tr>
+                        </tbody>
+                        </table>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div id="border-receipt">
+                    <div class="row receipt-elements">
+                        <div class="col-md">
+                            <h5>Order Summary</h5>
+                        </div>
+                    </div>
+                    <div class="row receipt-elements">
+                        <p class="name-product-price">Butter Chicken Masala:</p>
+                        <p class="price-charge" id="subtotal1"></p>
+                    </div>
+                    <div class="row receipt-elements">
+                        <p class="name-product-price">Shipping & Handling:</p>
+                        <p class="price-charge">free</p>
+                    </div>
+                    <div class="row seperating-bar">
+                        <p class="price-charge">_________________________</p>
+                    </div>
+                    <div class="row receipt-elements">
+                        <p class="name-product-price">Total before tax:</p>
+                        <p class="price-charge" id="subtotal"></p>
+                    </div>
+                    <div class="row receipt-elements">
+                        <p class="name-product-price">QST($):</p>
+                        <p class="price-charge" id="qst"></p>
+                    </div>
+                    <div class="row receipt-elements">
+                        <p class="name-product-price">GST($):</p>
+                        <p class="price-charge" id="gst"></p>
+                    </div>
+                    <div class="row seperating-bar">
+                        <p class="price-charge">_________________________</p>
+                    </div>
+                    <div class="row order-total">
+                        <p class="name-product-price">Order Total:</p>
+                        <p class="price-charge" id="total"></p>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-12">
+                                <button id="checkout" class="btn btn-outline-secondary" type="button">Checkout and Pay</button>
+                                <button type="submit" class="btn btn-outline-secondary">
+                                    Delete Order
+                                </button>
+                                <button type="submit" class="btn btn-outline-secondary">
+                                    Save Changes
+                                </button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="">Events & Promotions</a></li>
+            <li><a href="">Jobs in Stores</a>
+            <li><a href="/Back Store/userlist.html">Carreers at Head Office</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Store Locations</a></li>
+            <li><a href="">About Us</a>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">How can we do better?</a></li>
+            <li><a href="">Terms and Conditions</a></li>
+        </ul>
+
+        <p class="copyright">Copyright 2021 MirchiGrocery</p>
+    </footer>
+    <script src="\JavaScript\shoppingCart.js" charset="utf-8"></script>
+</body>
+
+</html>

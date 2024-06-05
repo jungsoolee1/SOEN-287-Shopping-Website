@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirchi Grocery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/productpage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="//fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <style>
+        #splash {
+            background-image: url("/imgs/hue12-photography-8rTwokBwz1w-unsplash.jpg");
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+            <img src="/imgs/Mirchi_Logo_oval_B.png" alt="Mirchi">
+        </a>
+
+
+        <nav id="nav-bar">
+            <a href="/index.html" class="nav-item">Home</a>
+            <a href="" class="nav-item">Events & Promotions</a>
+            <a href="/Login/login.html" class="nav-item">MyAccount</a>
+            <a href="/ShoppingCart.html" class="nav-item">Shopping Cart</a>
+          </nav>
+    </header>
+
+
+    <section id="aisle-bar">
+        <a href="/Fruits & Vegetables/fruitAndVegetables.html">Fruits & Vegetables</a>
+        <a href="/Dairy Products/dairy.html">Dairy Products</a>
+        <a href="/Meat & Poultry/meatPoultry.html">Meat & Poultry</a>
+        <a href="/Fish & Seafood/fishSeafood.html">Fish & Seafood</a>
+        <a href="/Herbes & Spices/Spices.html">Herbs & Spices</a>
+        <a href="/Bakery/bakery.html">In-store Bakery</a>
+      </section>
+    
+      <section id="aisle-bar" class="resp">
+        <img id="logo-resp" src="/imgs/logo-resp.png" alt="Mirchi">
+    
+        <div id="hamburger-icon">
+          <svg viewBox="0 0 100 80" width="40" height="40">
+            <rect width="100" height="20"></rect>
+            <rect y="30" width="100" height="20"></rect>
+            <rect y="60" width="100" height="20"></rect>
+          </svg>
+        </div>
+    
+    
+        <div id="dropdown-nav">
+            <a href="/">Home</a>
+            <a href="/Fruits & Vegetables/fruitAndVegetables.html">Fruits & Vegetables</a>
+            <a href="/Dairy Products/dairy.html">Dairy Products</a>
+            <a href="/Meat & Poultry/meatPoultry.html">Meat & Poultry</a>
+            <a href="/Fish & Seafood/fishSeafood.html">Fish & Seafood</a>
+            <a href="/Herbes & Spices/Spices.html">Herbs & Spices</a>
+            <a href="/Bakery/bakery.html">In-store Bakery</a>
+            <a href="/Login/login.html">My Account</a>
+            <a href="/ShoppingCart.html">Shopping Cart</a>
+        </div>
+      </section>
+
+    <section id="splash">
+        <div id="inner-splash">
+            <p>Herbes & Spices</p>
+        </div>
+    </section>
+
+    <div class="container" id="product">
+        <div class="back-button"><a href="/Herbes & Spices/Spices.html">Back</a></div>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="/imgs/METHI.jpg" alt="Kasoori Methi" class="product-img">
+            </div>
+            <div class="col-md-6">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <h1 class="product-title">Peacock© Kasoori Methi</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="product-tag">Spice</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="sku">SKU: 12345</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <p id="description">
+                            A spice used in India for centuries, this spice gives Indian an unforgettable exotic
+                            flavour.
+                            <br><br>
+                            Ingredients : Dried fenugreek leaves.
+                            <br><br>
+                        </p>
+                        <button onclick="addDescription()" id="more_description" type="button">More Description</button>
+                        <script src="/JavaScript/description_button.js"></script>
+                        <p class="copyright-product">
+                            All images and description are copyright from mdhspices.com
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 bottom-rule">
+                        <div class="product-price">
+                            <p>$ <span id="item_price">4.99</span> ea.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="addcart">
+                    <div class="row add-to-cart">
+                        <div class="col-md-12">
+                            <div class="input-group mb-3">
+
+                                <div id="product_quantity_info">
+                                    
+                                    <div id="total_product_price">
+                                        <span id="quantity_label">Quantity:</span>
+                                        <button class="atc_button" type="button" id="minus_atc_button">-</button>
+                                        <span id="quantity_of_item"></span>
+                                        <button class="atc_button" type="button" id="plus_atc_button">+</button>
+                                    </div>
+                                    
+                                    <span id="total_product_price_statement"></span>
+                                </div>
+
+                            
+                                <div id="add_to_cart_button_div">
+                                    <button class="button" type="button" id="add_to_cart" >Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="">Events & Promotions</a></li>
+            <li><a href="">Jobs in Stores</a>
+            <li><a href="/Back Store/userlist.html">Carreers at Head Office</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Store Locations</a></li>
+            <li><a href="">About Us</a>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">How can we do better?</a></li>
+            <li><a href="">Terms and Conditions</a></li>
+        </ul>
+
+        <p class="copyright">Copyright 2021 MirchiGrocery</p>
+    </footer>
+    <script src="\JavaScript\Quantity.js" charset="utf-8"></script>
+</body>
+
+</html>

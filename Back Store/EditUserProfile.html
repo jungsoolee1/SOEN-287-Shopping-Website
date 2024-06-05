@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MG Edit User Profile</title>
+
+
+
+    <link rel="stylesheet" href="/Back Store/editUserProfile.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="//fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+            <img src="/imgs/Mirchi_Logo_oval_B.png" alt="Mirchi">
+        </a>
+
+        <nav id="nav-bar">
+            <a href="/index.html" class="nav-item">Home</a>
+            <a href="" class="nav-item">Events & Promotions</a>
+            <a href="/Login/login.html" class="nav-item">MyAccount</a>
+            <a href="/ShoppingCart.html" class="nav-item">Shopping Cart</a>
+        </nav>
+    </header>
+
+
+    <section id="aisle-bar">
+        <a href="/Back Store/productList.html">Product List</a>
+        <a href="/Back Store/userlist.html">User List</a>
+        <a href="/Back Store/orderList.html">Order List</a>
+    </section>
+
+
+        <div class="user_info">
+            <h1>User Profile Settings</h1>
+
+            <form class="user_data">
+
+                <div class="user_attribute">
+                    <label for="first_name" class="labels">Edit First Name:</label><br>
+                    <input type="text" id="first_name" name="first_name" placeholder="Enter first name..." class="inputs"><br>
+                </div>
+                
+
+                <div class="user_attribute">
+                    <label for="last_name" class="labels">Edit Last Name:</label><br>
+                    <input type="text" id="last_name" name="last_name" placeholder="Enter last name..." class="inputs"><br>        
+                </div>
+                
+                <div class="user_attribute">
+                    <label for="email" class="labels">Edit Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter email..." class="inputs"><br>        
+                </div>
+                
+                <div class="user_attribute">
+                    <label for="password" class="labels">Edit Password:</label><br>
+                    <input type="password" id="password" name="password" placeholder="Enter password..." class="inputs"><br>    
+                </div>
+            
+                <div class="user_attribute">
+                    <label for="cpassword" class="labels">Confirm New Password:</label><br>
+                    <input type="password" id="cpassword" name="cpassword" placeholder="Confirm password..." class="inputs"><br>    
+                </div>
+
+                <div class="user_attribute">
+                    <label for="address" class="labels">Edit Address:</label><br>
+                    <input type="text" id="address" name="address" placeholder="Enter address..." class="inputs"><br>
+                </div>
+
+                <div class="user_attribute">
+                    <label for="city" class="labels">Edit City:</label><br>
+                    <input type="text" id="city" name="city" placeholder="Enter city..." class="inputs"><br>
+                </div>
+
+                <div class="user_attribute">
+                    <label for="postalcode" class="labels">Edit Postal Code (Include correct spacing):</label><br>
+                    <input type="text" id="postalcode" name="postalcode" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" placeholder="Enter postal code..." class="inputs"><br> <!--Canadian Potal Codde Pattern obtained from https://www.html5pattern.com/Postal_Codes-->
+                </div>
+
+                <div class="user_attribute">
+                    <label for="province" class="labels">Edit Province:</label><br>
+                    <input type="text" id="province" name="province" placeholder="Enter Province..." class="inputs"><br>
+                </div>
+
+                <div class="user_attribute">
+                    <label for="phone">Edit Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter number..."> <!--info on pattern attribute gathered from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel-->
+                </div>
+
+                <input type="reset" value="Reset User Profile" class="user_buttons">
+                <input type="submit" value="Save Changes" class="user_buttons">
+              </form>
+
+        </div>
+    
+
+        <footer>
+            <ul>
+                <li><a href="">Events & Promotions</a></li>
+                <li><a href="">Jobs in Stores</a>
+                <li><a href="/Back Store/userlist.html">Carreers at Head Office</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Store Locations</a></li>
+                <li><a href="">About Us</a>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">How can we do better?</a></li>
+                <li><a href="">Terms and Conditions</a></li>
+            </ul>
+    
+            <p class="copyright">Copyright 2021 MirchiGrocery</p>
+        </footer>
+    
+    </body>
+    
+</html>
